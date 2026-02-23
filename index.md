@@ -1,24 +1,11 @@
-# Web3 Security Vulnerabilities Blog
+# Web3 Research Archive
 
-Welcome to my lab notebook and blog archive for Web3 security.  
-Here you’ll find detailed breakdowns of smart contract exploits, vulnerability research, and secure coding practices — all documented as part of my ongoing journey from finance into smart contract auditing.
-
----
-
-## 🔍 What You'll Find Here
-
-- **Exploit Analysis** — Deep dives into real-world Web3 attacks and how they happened  
-- **Vulnerability Research** — Technical analysis of common smart contract weaknesses  
-- **Secure Coding Practices** — Patterns and techniques for building robust, auditable contracts  
-- **Audit Insights** — Lessons learned from security reviews and personal audit exercises  
-- **Personal Growth Notes** — Reflections on my progress as a Web3 developer and auditor  
+Security research documenting smart contract vulnerabilities and protocol economic risk analysis.
 
 ---
 
-## 📚 Latest Posts
 
-Below are my most recent write-ups, published weekly in the `/_posts/` folder:
-
+## Research Archive
 {% if site.posts.size > 0 %}
 {% for post in site.posts %}
 ### [{{ post.title }}]({{ post.url | relative_url }})
@@ -29,14 +16,31 @@ Below are my most recent write-ups, published weekly in the `/_posts/` folder:
 ---
 {% endfor %}
 {% else %}
-### Coming Soon!
 
-I'm currently working on detailed analysis of recent Web3 exploits and vulnerabilities. Check back soon for in-depth technical content covering:
+### Active Research
+Current investigations include:
+- Smart contract vulnerability analysis
+- Protocol economic security and credit risk
+- Cross-chain bridge security
+- DeFi lending covenant enforcement
 
-- Reentrancy attacks and prevention
-- Flash loan exploits 
-- Bridge vulnerabilities
-- MEV and front-running issues
-- Access control failures
-
+Detailed research findings are documented in the folders below.
 {% endif %}
+
+---
+
+## Research Resources
+
+**[Code Experiments](./code-experiments)** — Proof-of-concept implementations for vulnerabilities and defenses
+
+**[Quantitative Models](./quantitative)** — Financial models, credit analysis, and risk simulations
+
+**[Protocols](./protocols)** — Supporting data and analysis files for protocol research
+
+**[Research Notes](./research-notes)** — Ongoing investigations and experimental findings
+
+**[Exploits](./exploits)** — Additional vulnerability documentation and case studies
+
+---
+## About This Research
+For detailed methodology and research standards, see the [README](./README.md).
